@@ -1,10 +1,16 @@
-package com.ams.ultra_iptv
+package com.ams.ultra_iptv.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.ams.ultra_iptv.screens.ChannelSelectionScreen
+import com.ams.ultra_iptv.screens.HomeScreen
+import com.ams.ultra_iptv.screens.LoginScreen
+import com.ams.ultra_iptv.screens.PlayerScreen
+import com.ams.ultra_iptv.screens.RegisterScreen
+import com.ams.ultra_iptv.screens.SplashScreen
 
 
 @Composable

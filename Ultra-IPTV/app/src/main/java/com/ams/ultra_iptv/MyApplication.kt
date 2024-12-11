@@ -9,6 +9,6 @@ class MyApplication : Application() {
         // Inicializar Firebase
         FirebaseApp.initializeApp(this)
 
-        // Aquí puedes inicializar cualquier otra configuración global.
+        // Aquí podemos inicializar cualquier otra configuración global.
     }
 }

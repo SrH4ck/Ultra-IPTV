@@ -1,4 +1,4 @@
-package com.ams.ultra_iptv
+package com.ams.ultra_iptv.screens
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -15,6 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavHostController
 import kotlinx.coroutines.delay
 import androidx.compose.ui.draw.alpha
+import com.ams.ultra_iptv.R
 
 @Composable
 fun SplashScreen(navController: NavHostController) {

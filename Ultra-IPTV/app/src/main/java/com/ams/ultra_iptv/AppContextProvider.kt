@@ -1,7 +1,6 @@
 package com.ams.ultra_iptv
 
 import android.content.Context
-// AppContextProvider.kt
 object AppContextProvider {
     lateinit var appContext: Context
 

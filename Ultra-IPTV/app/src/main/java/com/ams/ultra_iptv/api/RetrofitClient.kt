@@ -1,6 +1,8 @@
-package com.ams.ultra_iptv
+package com.ams.ultra_iptv.api
 
 import android.content.Context
+import com.ams.ultra_iptv.AppContextProvider
+import com.ams.ultra_iptv.R
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
