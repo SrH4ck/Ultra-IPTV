@@ -187,4 +187,3 @@ fun CategoryItem(category: String, onClick: () -> Unit) {
     }
     Spacer(modifier = Modifier.height(12.dp)) // espacio entre los elementos de la lista
 }
-// antonio.iesgerena@gmail.com   import androidx.compose.ui.platform.LocalContext

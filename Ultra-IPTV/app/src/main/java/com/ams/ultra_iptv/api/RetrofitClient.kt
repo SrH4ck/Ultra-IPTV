@@ -16,8 +16,8 @@ import java.io.InputStream
 
 object RetrofitClient {
 
-    // Cambia la IP a la correcta
-    private const val BASE_URL = "https://192.168.166.16:5000" // Asegúrate de usar HTTPS
+    // Cambiar la IP según el servidor
+    private const val BASE_URL = "https://192.168.166.16:5000"
 
     val instance: ServerApi by lazy {
         val client = createOkHttpClient(AppContextProvider.appContext)
@@ -63,19 +63,3 @@ object RetrofitClient {
     }
 }
 
-
-/*object RetrofitClient {
-    // Para el emulador
-    private const val BASE_URLEmulador = "http://10.0.2.16:5000"  // Usa esta dirección en lugar de 192.168.202.16 en el emulador
-
-    private const val BASE_URL = "https://192.168.166.16:5000" // Cambia la IP a la nueva dirección
-
-
-    val instance: ServerApi by lazy {
-        Retrofit.Builder()
-            .baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(ServerApi::class.java)
-    }
-}*/

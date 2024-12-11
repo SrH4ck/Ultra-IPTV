@@ -11,9 +11,6 @@ data class ChannelResponse(
 )
 
 
-// Respuesta del servidor para los detalles de un canal (por ejemplo, la URL del canal)
-data class ChannelDetailsResponse(val url: String)
-
 data class CategoryResponse(
     val categories: List<String> // La lista de categorías
 )
@@ -22,12 +19,9 @@ data class CategoryResponse(
 // Interfaz Retrofit para las solicitudes al servidor
 interface ServerApi {
 
-    // Función para obtener la lista de canales de una categoría
     @GET("/api/get-channels/{category}")
     fun getList(@Path("category") category: String): Call<ChannelResponse>
 
-
-    // Nueva función para obtener los detalles de un canal (por ejemplo, la URL del canal)
 
     @GET("/api/get-list/{filename}")
     fun getChannelM3U(@Path("filename") filename: String): Call<ResponseBody>  // Usamos ResponseBody para manejar el archivo M3U
