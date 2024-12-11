@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033991729477",
+    "project_id": "ultra-iptv-fadbe",
+    "storage_bucket": "ultra-iptv-fadbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033991729477:android:058a77198bf91d68bd0e2c",
+        "android_client_info": {
+          "package_name": "com.ams.ultra_iptv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbUq55CIft5_Vvd-VRhubk1FxAxx17gWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
